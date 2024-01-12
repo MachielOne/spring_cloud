@@ -16,6 +16,9 @@
         <module>spring_cloud_eureka_7001</module>
         <module>spring_cloud_eureka_7002</module>
         <module>spring_cloud_eureka_7003</module>
+        <module>spring_cloud_provider_8002</module>
+        <module>spring_cloud_provider_8003</module>
+        <module>spring_cloud_consumer_feign</module>
     </modules>
 
     <properties>

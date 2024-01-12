@@ -21,4 +21,6 @@ public class Customer implements Serializable {
     private int gender;
 
     private String phoneNumber;
+
+    private String source;
 }

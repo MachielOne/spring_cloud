@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8003
 
 spring:
   application:
@@ -9,14 +9,14 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
-    url: jdbc:mysql://localhost:3306/mydb1?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/mydb3?useUnicode=true&characterEncoding=utf-8
 
 mybatis:
   type-aliases-package: org.homeboy.springcloud.pojo
 
 eureka:
   instance:
-    instance-id: spring-cloud-provider-8001-instance
+    instance-id: spring-cloud-provider-8003-instance
   client:
     service-url:
       defaultZone: http://eureka-sever-7001.com:7001/eureka/,http://eureka-sever-7002.com:7002/eureka/,http://eureka-sever-7003.com:7003/eureka/

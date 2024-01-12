@@ -1,7 +1,5 @@
 package org.homeboy.springcloud.controllers;
 
-import com.netflix.discovery.DiscoveryClient;
-import com.netflix.discovery.shared.Application;
 import org.homeboy.springcloud.pojo.Customer;
 import org.homeboy.springcloud.services.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/provider")
-public class ProviderController {
+public class Provider8001Controller {
 
     @Autowired
     private CustomerService customerService;

@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: spring-cloud-consumer-application
+    name: spring-cloud-consumer-feign-application
 eureka:
   client:
     register-with-eureka: false #不向eureka注册自己
